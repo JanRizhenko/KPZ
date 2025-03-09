@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\VisualStudio\\KPZ\\Lab01\\Warehouse\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{45F5D1AF-874A-42D3-84EE-ACAC00E68690}|Classes\\ClassLibrary.csproj|c:\\users\\admin\\desktop\\visualstudio\\kpz\\lab01\\warehouse\\classes\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45F5D1AF-874A-42D3-84EE-ACAC00E68690}|Classes\\ClassLibrary.csproj|solutionrelative:classes\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45F5D1AF-874A-42D3-84EE-ACAC00E68690}|Classes\\ClassLibrary.csproj|c:\\users\\admin\\desktop\\visualstudio\\kpz\\lab01\\warehouse\\classes\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45F5D1AF-874A-42D3-84EE-ACAC00E68690}|Classes\\ClassLibrary.csproj|solutionrelative:classes\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45F5D1AF-874A-42D3-84EE-ACAC00E68690}|Classes\\ClassLibrary.csproj|c:\\users\\admin\\desktop\\visualstudio\\kpz\\lab01\\warehouse\\classes\\reporting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45F5D1AF-874A-42D3-84EE-ACAC00E68690}|Classes\\ClassLibrary.csproj|solutionrelative:classes\\reporting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45F5D1AF-874A-42D3-84EE-ACAC00E68690}|Classes\\ClassLibrary.csproj|c:\\users\\admin\\desktop\\visualstudio\\kpz\\lab01\\warehouse\\classes\\warehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45F5D1AF-874A-42D3-84EE-ACAC00E68690}|Classes\\ClassLibrary.csproj|solutionrelative:classes\\warehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45F5D1AF-874A-42D3-84EE-ACAC00E68690}|Classes\\ClassLibrary.csproj|c:\\users\\admin\\desktop\\visualstudio\\kpz\\lab01\\warehouse\\classes\\money.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45F5D1AF-874A-42D3-84EE-ACAC00E68690}|Classes\\ClassLibrary.csproj|solutionrelative:classes\\money.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0523313-A4E0-47DE-B258-5C2E953DE8AF}|Warehouse\\Warehouse.csproj|c:\\users\\admin\\desktop\\visualstudio\\kpz\\lab01\\warehouse\\warehouse\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0523313-A4E0-47DE-B258-5C2E953DE8AF}|Warehouse\\Warehouse.csproj|solutionrelative:warehouse\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\VisualStudio\\KPZ\\Lab01\\Warehouse\\Classes\\Product.cs",
+              "RelativeDocumentMoniker": "Classes\\Product.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\VisualStudio\\KPZ\\Lab01\\Warehouse\\Classes\\Product.cs",
+              "RelativeToolTip": "Classes\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T14:46:25.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\VisualStudio\\KPZ\\Lab01\\Warehouse\\Classes\\Cart.cs",
+              "RelativeDocumentMoniker": "Classes\\Cart.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\VisualStudio\\KPZ\\Lab01\\Warehouse\\Classes\\Cart.cs",
+              "RelativeToolTip": "Classes\\Cart.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwB4AAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T18:57:15.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Reporting.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\VisualStudio\\KPZ\\Lab01\\Warehouse\\Classes\\Reporting.cs",
+              "RelativeDocumentMoniker": "Classes\\Reporting.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\VisualStudio\\KPZ\\Lab01\\Warehouse\\Classes\\Reporting.cs",
+              "RelativeToolTip": "Classes\\Reporting.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwD0AAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T16:36:19.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Warehouse.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\VisualStudio\\KPZ\\Lab01\\Warehouse\\Classes\\Warehouse.cs",
+              "RelativeDocumentMoniker": "Classes\\Warehouse.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\VisualStudio\\KPZ\\Lab01\\Warehouse\\Classes\\Warehouse.cs",
+              "RelativeToolTip": "Classes\\Warehouse.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA5wAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T15:50:06.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Money.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\VisualStudio\\KPZ\\Lab01\\Warehouse\\Classes\\Money.cs",
+              "RelativeDocumentMoniker": "Classes\\Money.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\VisualStudio\\KPZ\\Lab01\\Warehouse\\Classes\\Money.cs",
+              "RelativeToolTip": "Classes\\Money.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T13:53:15.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\VisualStudio\\KPZ\\Lab01\\Warehouse\\Warehouse\\Program.cs",
+              "RelativeDocumentMoniker": "Warehouse\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\VisualStudio\\KPZ\\Lab01\\Warehouse\\Warehouse\\Program.cs",
+              "RelativeToolTip": "Warehouse\\Program.cs",
+              "ViewState": "AgIAALAAAAAAAAAAAAAuwMoAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T13:51:40.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
