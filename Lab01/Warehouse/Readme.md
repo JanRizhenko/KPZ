@@ -22,7 +22,7 @@ The **KISS** principle promotes simplicity in code structure and logic.
 **Example:**
 - The project is divided into small, focused methods like `ViewCart`, `AddProduct`, and `RemoveProduct`, ensuring each function has a clear responsibility.
 
-  **Code Example:** [`Program.cs - ViewCart Method`](https://github.com/JanRizhenko/KPZ/blob/master/Lab01/Warehouse/Warehouse/Program.cs#L61)
+  **Code Example:** [`Program.cs - ViewCart Method`](https://github.com/JanRizhenko/KPZ/blob/master/Lab01/Warehouse/Warehouse/Program.cs#L250)
 
 ---
 
@@ -74,7 +74,7 @@ The project does not include unnecessary features until they are required.
 Instead of complex class hierarchies, the project uses composition to structure functionality.
 - `Product` and `Cart` are composed of smaller reusable functionalities rather than deep inheritance trees.
 
-  **Code Example:** [`Product.cs`](https://github.com/JanRizhenko/KPZ/blob/master/Lab01/Warehouse/Classes/Product.cs)
+  **Code Example:** [`Product.cs`](https://github.com/JanRizhenko/KPZ/blob/master/Lab01/Warehouse/Classes/Product.cs) [`Cart.cs`](https://github.com/JanRizhenko/KPZ/blob/master/Lab01/Warehouse/Classes/Cart.cs)
 
 ---
 
