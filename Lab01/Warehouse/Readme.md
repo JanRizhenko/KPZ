@@ -26,7 +26,7 @@ The **KISS** principle promotes simplicity in code structure and logic.
 
 ---
 
-## 🔹 **SOLID Principles**
+## **SOLID Principles**
 
 ### 1. **S - Single Responsibility Principle (SRP)**
 Each class is responsible for only one functionality.
@@ -94,8 +94,8 @@ Errors are detected and handled early instead of allowing the program to continu
 
 ---
 
-## 📌 **Conclusion**
+## **Conclusion**
 This project follows multiple clean code principles to ensure maintainability, flexibility, and scalability. By adhering to these best practices, we create a robust and efficient Warehouse Management System.
 
-🚀 **Repository:** [`GitHub Repo`](https://github.com/JanRizhenko/KPZ/tree/master/Lab01/Warehouse)
+**Repository:** [`GitHub Repo`](https://github.com/JanRizhenko/KPZ/tree/master/Lab01/Warehouse)
 
