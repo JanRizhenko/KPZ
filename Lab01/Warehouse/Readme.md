@@ -2,12 +2,9 @@
 
 This project demonstrates the implementation of a Warehouse Management System, designed following best practices for clean and maintainable code. The system adheres to multiple software design principles to ensure scalability, readability, and ease of maintenance.
 
-## 📌 Repository  
-You can find the full project here: [`GitHub Repo`](https://github.com/JanRizhenko/KPZ/tree/master/Lab01/Warehouse).
-
 ---
 
-## ✅ **Applied Software Design Principles**
+## **Applied Software Design Principles**
 
 ### 1. **DRY (Don't Repeat Yourself)**
 The **DRY** principle minimizes code duplication by reusing logic through abstractions.
