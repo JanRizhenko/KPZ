@@ -2,12 +2,9 @@
 
 This project demonstrates the implementation of a Warehouse Management System, designed following best practices for clean and maintainable code. The system adheres to multiple software design principles to ensure scalability, readability, and ease of maintenance.
 
-## 📌 Repository  
-You can find the full project here: [`GitHub Repo`](https://github.com/JanRizhenko/KPZ/tree/master/Lab01/Warehouse).
-
 ---
 
-## ✅ **Applied Software Design Principles**
+## **Applied Software Design Principles**
 
 ### 1. **DRY (Don't Repeat Yourself)**
 The **DRY** principle minimizes code duplication by reusing logic through abstractions.
@@ -25,11 +22,11 @@ The **KISS** principle promotes simplicity in code structure and logic.
 **Example:**
 - The project is divided into small, focused methods like `ViewCart`, `AddProduct`, and `RemoveProduct`, ensuring each function has a clear responsibility.
 
-  **Code Example:** [`Program.cs - ViewCart Method`](https://github.com/JanRizhenko/KPZ/blob/master/Lab01/Warehouse/Warehouse/Program.cs#L61)
+  **Code Example:** [`Program.cs - ViewCart Method`](https://github.com/JanRizhenko/KPZ/blob/master/Lab01/Warehouse/Warehouse/Program.cs#L250)
 
 ---
 
-## 🔹 **SOLID Principles**
+## **SOLID Principles**
 
 ### 1. **S - Single Responsibility Principle (SRP)**
 Each class is responsible for only one functionality.
@@ -77,7 +74,7 @@ The project does not include unnecessary features until they are required.
 Instead of complex class hierarchies, the project uses composition to structure functionality.
 - `Product` and `Cart` are composed of smaller reusable functionalities rather than deep inheritance trees.
 
-  **Code Example:** [`Product.cs`](https://github.com/JanRizhenko/KPZ/blob/master/Lab01/Warehouse/Classes/Product.cs)
+  **Code Example:** [`Product.cs`](https://github.com/JanRizhenko/KPZ/blob/master/Lab01/Warehouse/Classes/Product.cs) [`Cart.cs`](https://github.com/JanRizhenko/KPZ/blob/master/Lab01/Warehouse/Classes/Cart.cs)
 
 ---
 
@@ -97,8 +94,8 @@ Errors are detected and handled early instead of allowing the program to continu
 
 ---
 
-## 📌 **Conclusion**
+## **Conclusion**
 This project follows multiple clean code principles to ensure maintainability, flexibility, and scalability. By adhering to these best practices, we create a robust and efficient Warehouse Management System.
 
-🚀 **Repository:** [`GitHub Repo`](https://github.com/JanRizhenko/KPZ/tree/master/Lab01/Warehouse)
+**Repository:** [`GitHub Repo`](https://github.com/JanRizhenko/KPZ/tree/master/Lab01/Warehouse)
 
