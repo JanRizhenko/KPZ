@@ -59,19 +59,4 @@ namespace WarehouseApp
             return total;
         }
     }
-    public class CartItem
-    {
-        public Product Product { get; }
-        public int Quantity { get; set; }
-
-        public CartItem(Product product, int quantity)
-        {
-            Product = product;
-            Quantity = quantity;
-        }
-        public double TotalPrice()
-        {
-            return Product.Price.ConvertToCurrency("USD") * Quantity;
-        }
-    }
 }
