@@ -35,6 +35,25 @@ namespace Composite
 
             Console.WriteLine($"\nFlyweight objects used: {parser.FlyweightCount}");
             Console.WriteLine($"Memory used by HTML tree: {(after - before) / 1024.0:F2} KB");
+
+            Console.WriteLine();
+
+
+
+            var logger = new ClickLogger();
+
+            if (htmlTree is LightElementNode div && div.InnerHTML.Length > 0)
+            {
+                var firstChild = div.InnerHTML;
+
+                if (div is LightElementNode node)
+                {
+                    node.AddEventListener("click", logger);
+                    node.TriggerEvent("click");
+                    Console.WriteLine();
+                    node.TriggerEvent("mouseover");
+                }
+            }
         }
 
 
