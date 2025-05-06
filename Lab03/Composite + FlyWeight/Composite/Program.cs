@@ -34,7 +34,20 @@ namespace Composite
             long after = GetMemoryUsageInBytes();
 
             Console.WriteLine($"\nFlyweight objects used: {parser.FlyweightCount}");
-            Console.WriteLine($"Memory used by HTML tree: {(after - before) / 1024.0:F2} KB");
+            Console.WriteLine($"Memory used by HTML tree: {(after - before) / 1024.0:F2} KB\n");
+
+
+            var localImage = new LightImageNode("images/logo.png");
+            var webImage = new LightImageNode("https://example.com/image.jpg");
+
+            localImage.LoadImage();
+            Console.WriteLine(localImage.OuterHTML);
+            
+            Console.WriteLine();
+
+            webImage.LoadImage();
+            Console.WriteLine(webImage.OuterHTML);
+            
         }
 
 
