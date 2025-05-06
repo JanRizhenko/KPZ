@@ -45,8 +45,11 @@
   <ItemGroup>
     <Compile Include="ElementFlyweight.cs" />
     <Compile Include="ElementFlyweightFactory.cs" />
+    <Compile Include="IImageLoadingStrategy.cs" />
+    <Compile Include="ImageLoading.cs" />
     <Compile Include="LightElementNode.cs" />
     <Compile Include="LightHTMLParser.cs" />
+    <Compile Include="LightImageNode.cs" />
     <Compile Include="LightNode.cs" />
     <Compile Include="LightTextNode.cs" />
     <Compile Include="Program.cs" />
