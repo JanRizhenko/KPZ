@@ -24,6 +24,7 @@ namespace Composite
         private ElementFlyweight _flyweight;
         private List<LightNode> _childrens = new List<LightNode>();
         private List<string> _cssClasses = new List<string>();
+        private Dictionary<string, List<IEventListener>> _eventListeners = new Dictionary<string, List<IEventListener>>();
 
         public LightElementNode(ElementFlyweight flyweight)
         {
@@ -50,6 +51,30 @@ namespace Composite
                 }
             }
         }
+
+        public void AddEventListener(string eventType, IEventListener listener)
+        {
+            if (!_eventListeners.ContainsKey(eventType))
+                _eventListeners[eventType] = new List<IEventListener>();
+
+            _eventListeners[eventType].Add(listener);
+        }
+
+        public void TriggerEvent(string eventType)
+        {
+            Console.WriteLine($"Triggering \"{eventType}\" on <{_flyweight.TagName}>");
+
+            if (_eventListeners.TryGetValue(eventType, out var listeners))
+            {
+                foreach (var listener in listeners)
+                    listener.HandleEvent(eventType, this);
+            }
+            else
+            {
+                Console.WriteLine("No listeners for this event.");
+            }
+        }
+
 
     }
 }

@@ -6,7 +6,26 @@ using System.Threading.Tasks;
 
 namespace Mediator
 {
-    internal class Aircraft
+    class Aircraft
     {
+        public string Name { get; }
+        public bool IsTakingOff { get; set; }
+        private CommandCentre _commandCentre;
+
+        public Aircraft(string name, CommandCentre centre)
+        {
+            this.Name = name;
+            this._commandCentre = centre;
+        }
+
+        public void RequestLanding()
+        {
+            _commandCentre.HandleLanding(this);
+        }
+
+        public void RequestTakeOff()
+        {
+            _commandCentre.HandleTakeOff(this);
+        }
     }
 }
